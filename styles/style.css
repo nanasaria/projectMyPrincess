@@ -1,5 +1,6 @@
 .leandrinha{
     margin-top: 5%;
+    margin-left: 5%;
     display: flex;
     flex-direction: column;
 }
@@ -11,6 +12,7 @@
 @media only screen and (min-width: 600px) {
     .leandrinha{
         flex-direction: row;
+        margin-left: 0;
         flex-wrap: wrap;
         gap: 9%;
     }
